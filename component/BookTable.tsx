@@ -55,12 +55,12 @@ export default function BookTable() {
                     + Thêm sách
                 </Button>
             </div>
-            <Table bordered>
+            <Table striped bordered hover>
                 <thead>
                 <tr>
                     <th style={{width: "80px"}}>ID</th>
                     <th>Tiêu đề</th>
-                    <th style={{width: "200px"}} className="text-center">
+                    <th style={{width: "200px",textAlign:"center"}}>
                         Hành động
                     </th>
                 </tr>
